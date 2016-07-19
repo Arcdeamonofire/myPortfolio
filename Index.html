@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<!--Hi, to whoever is look at this and reading this. I'm including a bunch of comments, to hopefully help myself remember what I've been doing and to have as helps when trying to talk about my code. Probably making many more comments than I need to, but hey this was a fun and simple project why not go crazy with comments in such a simple task? :D  right?.....right?
+
+I also did it to help re-enforce everthing I was trying to absorb-->
+<head>
+<link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'> <!-- This ^ is the font I used for my name form google.com/fonts :)-->
+
+<link href="normalize.css" rel="stylesheet">
+<!--I included this ^ because in one of th dash tutorials it mentioned that I should get used to using it. I've included what I believe is the file for this after some web research. This was almost certainly not necessary, but whatevs.-->
+
+<TITLE>About Samuel Weisse</TITLE> <!--Obviously Title for browser tabe ^,^ -->
+
+<style>
+  /*Header-.Poem CSS: This is dealing with my name and picture*/
+  /*I've picked gray and that orangish, pinkish color(#ff4d4d) as my two primary colors because I think they mesh well with the colors in the background picture I chose. :/ */
+  /*My name(the only h1) and Pic are in the header along with a Sunset Cloud Pic now also includes the div Poem*/
+  header {
+    text-align: center;
+    background-image: url("Header.jpg");
+    background-size: cover;
+        border-radius: 20px;
+    margin: 0 auto;
+  }
+
+  h1 {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 70px;
+    padding: 10px, 10px, 20px, 20px;
+    color: #ff4d4d;
+    -webkit-text-stroke: 1px white;
+  }
+
+    img {
+    margin: -50px 0px 0px 0px;
+    border: 7px solid #ff4d4d;
+    border-radius: 20px;
+    position: middle;
+  }
+/*The .Poem style uses another gradient that is bottom to top, to help it be visible against the pic.*/
+  .Poem {
+    color: white;
+    background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  background-size: cover;
+  margin: 0 auto;
+  width: cover;
+  border-radius: 50px;
+  border: 5px double white;
+  }
+
+  /*This is dealing with the main body of the site the info about me and my contact info*/
+  /*The body contains 1 h2 as well as 3 divs (class: About, Words and Contact) also includes the style control for all divs
+  */
+  body {
+    text-align: center;
+      background: linear-gradient(top, rgba(0,0,0,1), rgba(0,0,0,.4));
+  background: -webkit-linear-gradient(top, rgba(0,0,0,1), rgba(0,0,0,.4));
+  background: -moz-linear-gradient(top, rgba(0,0,0,1), rgba(0,0,0,.4));
+  background-size: cover;
+  margin: 0 auto;
+  }
+
+  h2 {\
+    color: black;
+    text-decoration: underline;
+  }
+
+  div {
+    max-width: 600px;
+      padding: 20px;
+      margin: 0 auto;
+  }
+  .About {
+    Background: gray;
+    margin-top: 15px;
+    border: 10px solid #ff4d4d;
+    border-radius: 20px;
+  }
+  .Words {
+    Background: gray;
+    margin-top: 15px;
+    border: 10px solid #ff4d4d;
+    border-radius: 20px;
+    text-align: justify;
+  }
+  .Contact{
+    Background: gray;
+    margin-top: 15px;
+    border: 10px solid #ff4d4d;
+    border-radius: 20px;
+  }
+</style>
+
+</head>
+<!--Dis v be the content of the site!-->
+<body>
+
+  <header>
+    <h1> Samuel Weisse</h1>
+    <img src="Sam.jpg">
+    <div class="Poem"><p>"How can they meet us face to face till we have faces?" ~C.S. Lewis</p> </div>
+  </header>
+
+  <div class="About">
+    <h2>Me at a Glance :p</h2>
+      <p>Born (and Raised): San Jose, CA </p>
+      <p>High School: Valley Christian High School, untill I dropped out and took the CHSPE.</p>
+      <p>College: <a href="http://hello.gutenberg.edu/">Gutenberg College, Eugene, OR</a></p>
+      <p>Current Job: Data Entry Clerk @ <a href="www.jewsforjesus.org">Jews For Jesus</a></p>
+      <p>Current Goal: Get into Web Development and Design</p>
+      <p>Hobbies: Reading, Video Games, Cooking, and Movies</p>
+      <p>Life Dream: Become an author, live on a small farm/ranch and enjoy my friends and family</p>
+  </div>
+
+  <div class="Words">
+      <p>I was born and raised in the Silicon Valley. I happily escaped, when I went up to Eugene, OR for College. My friends said I was a drop-up because, I dropped out of high school so I could go to college. After I graduated, I returned to San Jose, because living with my parents was better than not having a job and being unable to pay for rent (it was only not having a job).</p>
+      <p>Since then I've worked for Google Shopping Express, Jews for Jesus as a Data Entry Clerk, and at two different schools in their after school programs. I've considered returning to school for a Teaching Credential, for a PhD or Masters. I've even thought about getting a second Bachelor's degree in some other field.</p>
+      <p>That's when I came across General Assembly and that peaked my intrest. I've always been technically inclined. I love technology and enjoy playing with it as a hobby (I built my first PC when I was 13) and my first website (all html), in middle school. But, I've never really pursued it as a career path. I'd like to start trying to do that now. This class seems like an amazing opportunity to begin doing just that.</p>
+  </div>
+
+  <div class="Contact">
+  <p>Email: samuel.weisse@gmail.com</p>
+  <p>Phone: 408-726-5234</p>
+  <p><a href="https://www.facebook.com/sam.weisse">Facebook</a></p>
+  <p><a href="https://www.linkedin.com/in/samuel-weisse-69514571">LinkedIn</a></p>
+  <p><a href="https://twitter.com/SamWeisse">Twitter</a></p>
+  </div>
+
+<small>Last edited 3/30/2016 9:30PM PST</small>
+<small>|| Site by: Samuel J. Weisse</small>
+</body>
